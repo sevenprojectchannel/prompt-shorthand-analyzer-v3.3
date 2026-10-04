@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Local environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Android build and local configuration
+.gradle/
+android/.gradle/
+android/local.properties
+android/**/build/
+android/app/build/
+*.apk
+apks/
+*.keystore
+*.jks
